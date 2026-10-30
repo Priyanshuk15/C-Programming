@@ -72,7 +72,7 @@ int main(){
         break;
         
         case 4:
-        printf("cateogory: genral\n");
+        printf("cateogory: general\n");
         printf("fee wavier status: not eligible\n");
         break;
 
