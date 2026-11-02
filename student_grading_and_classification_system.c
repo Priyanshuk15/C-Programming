@@ -80,7 +80,7 @@ int main(){
         printf("invalid category code!\n");
     }
         printf("\n>>>>>>STUDENT DETAILS <<<<<<\n");
-        printf("Name     : %s\n", name);
+        printf("Name     : %c\n", name);
         printf("Roll No  : %d\n", roll_no);
         printf("marks    : %.3f\n", marks);
         return 0;

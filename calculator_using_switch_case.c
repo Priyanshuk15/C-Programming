@@ -26,11 +26,11 @@ int main(){
         break;
    
         case '/':
-        if(b != 0){
-            printf("divison %.2f", (float)a/b);
+        if(b == 0){
+            printf("cannot divided by o");
         }
         else{
-            printf("cannot divided by 0");
+            printf("division = %.2f", (float)a/b);
         }
         break;
         default:
